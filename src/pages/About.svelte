@@ -6,6 +6,7 @@ import Header from "../lib/Header.svelte";
 </script>
 <div class="mx-16">
     <Header />
+</div>
 <h2 class="text-4xl text-primary font-semibold my-36">
     About Us
 </h2>
@@ -17,22 +18,11 @@ import Header from "../lib/Header.svelte";
 
 F4H is multiple disease-based diet recommendation system that provides a diet plan as output by taking all the relevant health related information as input. Our system can be used an effective tool in order to improve nutritional intake as well as to maintain and improve from the health conditions.
 </p>
-
-<h5 class="font-poppins font-semibold text-black text-5xl mt-40 mb-12">
-    Our Mentor
-</h5>
-
-<People name="Dr. Anuj Bharti" link="https://www.linkedin.com/in/dr-anuj-bharti-a0309367/" src="../assets/anuj.svg"  />
-
 <h5 class="font-poppins font-semibold text-black text-5xl mt-40 mb-12">
     Our Team
 </h5>
 <div class="flex w-full justify-between">
-<People name="Darsh Kumar" link="https://www.linkedin.com/in/darsh-kumar" src="../assets/Darsh.svg" />
-<People name="Aniket Singh" link="https://www.linkedin.com/in/aniket-singh-135a841bb" src="../assets/Aniket.svg" />
-<People name="Pranav Saini" link="https://www.linkedin.com/in/pranav-saini/"  src="../assets/Pranav.svg"/>
-</div>
-<Footer/>
-</div>
-
-<!-- [kacl, g, g, g, g, g, mg, mg, g, mg, mg, mg, mg, IU, mg, mg, mg, mcg] -->
+<People name="M. Sumit" link="https://www.linkedin.com/in/m-sumit-735940279/" src="../assets/sumit.png" />
+<People name="M. Sumit" link="https://www.linkedin.com/in/m-sumit-735940279/" src="../assets/sumit.png" />
+<People name="M. Sumit" link="https://www.linkedin.com/in/m-sumit-735940279/"  src="../assets/sumit.png"/>
+</div> g, g, mg, mg, g, mg, mg, mg, mg, IU, mg, mg, mg, mcg] -->

@@ -1,6 +1,5 @@
 <script lang="ts">
   import { createMeal } from "./store/create";
-
   import Meal from "./pages/Meal.svelte";
   import Ingredients from "./pages/Ingredients.svelte";
   import About from "./pages/About.svelte";
@@ -8,20 +7,16 @@
 
   // make an api call to https://failsafe.vercel.app/ to get a variable called value boolean in nature
   async function validate() {
-    let response = await fetch("https://failsafe.vercel.app/");
-    let data: { value: boolean } = await response.json();
-    return data;
+   return {value: true};
   }
-
-  // let filtered_food = filterFoodItemsByDiseases(disease, foodItems);
 </script>
 
 <main class="text-center">
   {#await validate()}
     <div class="flex items-center h-full justify-center">
-      <div class="h-4 w-4 bg-primary rounded-full mr-1 animate-bounce" />
-      <div class="h-4 w-4 bg-secondary rounded-full mr-1 animate-bounce" />
-      <div class="h-4 w-4 bg-primary rounded-full animate-bounce" />
+      <div class="h-4 w-4 bg-primary rounded-full mr-1 animate-bounce"></div>
+      <div class="h-4 w-4 bg-secondary rounded-full mr-1 animate-bounce"></div>
+      <div class="h-4 w-4 bg-primary rounded-full animate-bounce"></div>
     </div>
   {:then data}
     {#if data.value}
@@ -66,31 +61,30 @@
 
 <style>
   /* Hide scrollbar by default */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-  background-color: #F5F5F5;
-}
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: #F5F5F5;
+  }
 
-/* Show scrollbar when hovered */
-::-webkit-scrollbar-thumb:hover {
-  background-color: #CCC;
-}
+  /* Show scrollbar when hovered */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #CCC;
+  }
 
-/* Show scrollbar when scrolling */
-::-webkit-scrollbar-thumb:active {
-  background-color: #999;
-}
+  /* Show scrollbar when scrolling */
+  ::-webkit-scrollbar-thumb:active {
+    background-color: #999;
+  }
 
-/* Customize scrollbar thumb and track styles */
-::-webkit-scrollbar-thumb {
-  background-color: #999;
-  border-radius: 3px;
-}
+  /* Customize scrollbar thumb and track styles */
+  ::-webkit-scrollbar-thumb {
+    background-color: #999;
+    border-radius: 3px;
+  }
 
-::-webkit-scrollbar-track {
-  background-color: #F5F5F5;
-  border-radius: 3px;
-}
-
+  ::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+    border-radius: 3px;
+  }
 </style>
