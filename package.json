@@ -28,6 +28,7 @@
     "jspdf": "^2.5.1",
     "jspdf-autotable": "^3.5.28",
     "pdfmake": "^0.2.7",
+    "pnpm": "^9.9.0",
     "svelte-multiselect": "^8.6.0"
   }
 }
