@@ -22,7 +22,6 @@ F4H is multiple disease-based diet recommendation system that provides a diet pl
     Our Team
 </h5>
 <div class="flex w-full justify-between">
-<People name="M. Sumit" link="https://www.linkedin.com/in/m-sumit-735940279/" src="../assets/sumit.png" />
-<People name="M. Sumit" link="https://www.linkedin.com/in/m-sumit-735940279/" src="../assets/sumit.png" />
-<People name="M. Sumit" link="https://www.linkedin.com/in/m-sumit-735940279/"  src="../assets/sumit.png"/>
-</div> g, g, mg, mg, g, mg, mg, mg, mg, IU, mg, mg, mg, mcg] -->
+<People name="Reema Singh" link="https://www.linkedin.com/in/rhoth/" src="../assets/reema.svg" />
+<People name="Pankaj Rai" link="https://www.linkedin.com/in/pankaj-rai-99894a229/"  src="../assets/pankaj.svg"/>
+</div> 

@@ -1,6 +1,5 @@
 <script lang="ts">
   import Calculator from "./Calculator.svelte";
-  import FaQs from "./FAQs.svelte";
   import Header from "./Header.svelte";
   import Landing from "./Landing.svelte";
   import Footer from "./Footer.svelte";
@@ -17,6 +16,5 @@
 
 </div>
 <div>
-  <FaQs />
   <Footer />
 </div>
